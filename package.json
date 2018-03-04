@@ -4,7 +4,7 @@
   "description": "Load test TCP with Artillery.io",
   "main": "index.js",
   "scripts": {
-    "test": "node test/index.js",
+    "test": "node test/index.js"
   },
   "keywords": [
     "tcp",
@@ -12,6 +12,7 @@
   ],
   "author": "limiter121",
   "license": "MPL-2.0",
+  "repository": "limiter121/artillery-engine-tcp",
   "devDependencies": {
     "debug": "^2.6.4",
     "eslint": "^3.19.0",
