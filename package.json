@@ -1,0 +1,32 @@
+{
+  "name": "artillery-engine-tcp",
+  "version": "1.0.0",
+  "description": "Load test TCP with Artillery.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js",
+  },
+  "keywords": [
+    "tcp",
+    "load"
+  ],
+  "author": "limiter121",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "debug": "^2.6.4",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "semistandard": "^11.0.0",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "artillery-core": "^4.6.0",
+    "async": "^1.5.2",
+    "debug": "^2.6.6",
+    "lodash": "^4.17.4"
+  }
+}
